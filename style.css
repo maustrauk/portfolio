@@ -73,6 +73,7 @@ footer {
 }
 
 nav {
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
 }
@@ -80,7 +81,7 @@ nav {
 ul {
     display: flex;
     list-style-type: none;
-    width: 500px;
+    width: 600px;
     justify-content: space-around;
     font-size: 30px;
 }
@@ -93,14 +94,46 @@ h1 {
     font-size: 90px;
 }
 
+p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.hero-area {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .hero-text {
     margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.hero-text p {
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .button {
     width: 200px;
-    height: 60px;
+    height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: #ef744b;
     text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #efb64b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
 }
