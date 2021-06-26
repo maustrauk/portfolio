@@ -141,3 +141,13 @@ p {
 .socials {
     padding-bottom: 200px;
 }
+
+.logo {
+    height: 80px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.social {
+    margin: 20px;
+}
