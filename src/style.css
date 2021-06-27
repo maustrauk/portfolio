@@ -100,10 +100,21 @@ footer {
     background-color: black;
 }
 
+.logo {
+    height: 50px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
 nav {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -161,6 +172,11 @@ p {
     color: #808080;
 }
 
+.button-link {
+    text-decoration: none;
+    color: white;
+}
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
@@ -172,12 +188,6 @@ hr {
 
 .social {
     margin: 20px;
-}
-
-.logo {
-    height: 50px;
-    margin: 20px;
-    border-radius: 20px;
 }
 
 .headshot {
