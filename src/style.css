@@ -127,6 +127,12 @@ ul {
     font-size: 30px;
 }
 
+@media only screen and (max-width: 1000px) {
+    ul {
+        display: none;
+    }
+}
+
 li {
     text-decoration: none;
 }
@@ -179,6 +185,20 @@ p {
     color: white;
 }
 
+.hamburger {
+    display: none;
+}    
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+    }
+}
+
 hr {
     margin-left: 20px;
     margin-right: 20px;
@@ -212,6 +232,13 @@ hr {
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .project-image {
