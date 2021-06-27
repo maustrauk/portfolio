@@ -103,15 +103,29 @@ footer {
 }
 
 .logo {
+    display: block;
     height: 50px;
     margin: 20px;
     border-radius: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .logo {
+        display: none;
+    }
 }
 
 nav {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
 }
 
 .nav-link {
@@ -127,9 +141,15 @@ ul {
     font-size: 30px;
 }
 
+ul.show {
+    display: block;
+}
+
 @media only screen and (max-width: 1000px) {
     ul {
         display: none;
+        background-color: #2b2c38;
+        margin: 0;
     }
 }
 
@@ -196,6 +216,7 @@ p {
         background-color: transparent;
         color: white;
         font-size: 30px;
+        align-self: flex-end;
     }
 }
 
