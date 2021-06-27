@@ -165,17 +165,18 @@ h1 {
 
 h2 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 400;
     margin-bottom: 30px;
 }
 
 p {
     font-size: 30px;
-    font-weight: 300;
-}
-
-.subtext {
-    font-size: 15px;
     font-weight: 300;
 }
 
@@ -245,7 +246,6 @@ hr {
 
 .project-card {
     width: 300px;
-    height: 500px;
     box-shadow: 5px 5px 20px grey;
     margin: 10px;
 }
@@ -264,10 +264,26 @@ hr {
 
 .project-image {
     margin-top: 25px;
-    width: 250px;
-    border-radius: 50%;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 25px;
 }
+
+.project-about {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.project-tech {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+}
+
 .project-link {
     text-decoration: none;
     color: #ef744b;
+    font-size: 15px;
+    font-weight: 300;
 }
