@@ -96,8 +96,10 @@ section {
 }
 
 footer {
-    height: 500px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
 }
 
 .logo {
