@@ -245,9 +245,10 @@ hr {
 }
 
 .project-card {
-    width: 300px;
+    width: 450px;
     box-shadow: 5px 5px 20px grey;
     margin: 10px;
+    padding: 10px;
 }
 
 .project-container {
@@ -264,8 +265,8 @@ hr {
 
 .project-image {
     margin-top: 25px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
     margin-bottom: 25px;
 }
 
