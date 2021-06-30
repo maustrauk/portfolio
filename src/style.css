@@ -234,6 +234,14 @@ hr {
     margin: 20px;
 }
 
+.information {
+    margin-right: 30px;
+}
+
+#about-address {
+    font-style: italic;
+}
+
 .headshot {
     width: 300px;
     border-radius: 50%;
@@ -265,9 +273,11 @@ hr {
 
 .project-image {
     margin-top: 25px;
-    width: 300px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 25px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px grey;
 }
 
 .project-about {
@@ -287,4 +297,8 @@ hr {
     color: #ef744b;
     font-size: 15px;
     font-weight: 300;
+}
+
+.submit-form-button {
+    border-radius: 5px;
 }
