@@ -73,6 +73,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
+    /*background-image: url("../src/images/background.jpg");*/
     height: 100vh;
     color: white;
     font-size: 40px;
