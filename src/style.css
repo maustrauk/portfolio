@@ -243,6 +243,16 @@ hr {
     font-style: italic;
 }
 
+#about-text {
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #about-text {
+        display: none;
+    }
+}
+
 .headshot {
     width: 300px;
     border-radius: 50%;
