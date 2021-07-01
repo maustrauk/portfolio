@@ -279,6 +279,19 @@ hr {
     margin-bottom: 25px;
     border-radius: 50%;
     box-shadow: 5px 5px 20px grey;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image-puls {
+    0% { transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.project-image:hover {
+    animation-name: image-puls;
+    animation-timing-function: linear;
 }
 
 .project-about {
