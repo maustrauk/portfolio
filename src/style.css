@@ -217,7 +217,7 @@ p {
         background-color: transparent;
         color: white;
         font-size: 30px;
-        align-self: flex-end;
+        height: 100px;
     }
 }
 
