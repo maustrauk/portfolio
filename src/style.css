@@ -73,10 +73,12 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    /*background-image: url("../src/images/background.jpg");*/
+    background-image: url("../src/images/background.jpg");
+    background-size: cover;
     height: 100vh;
-    color: white;
-    font-size: 40px;
+    color: rgb(243, 240, 240);
+    font-size: 60px;
+    
 }
 
 .hero-area {
@@ -89,11 +91,13 @@ section {
 .hero-text {
     margin-left: 80px;
     margin-bottom: 200px;
+    text-shadow: 3px 3px #b13939;
 }
 
 .hero-text p {
     margin-top: 50px;
     margin-bottom: 25px;
+    font-weight: 600;
 }
 
 footer {
@@ -191,6 +195,7 @@ p {
     font-weight: 400;
     padding-top: 20px;
     margin-top: 20px;
+    text-shadow: none;
 }
 
 .button:hover {
@@ -237,6 +242,15 @@ hr {
 
 .information {
     margin-right: 30px;
+    font-family: 'Uchen', serif;
+}
+
+#about-me {
+    background-color: #d6d3d3;
+}
+
+#about-header {
+    font-size: 35px;
 }
 
 #about-address {
@@ -245,6 +259,7 @@ hr {
 
 #about-text {
     padding-top: 10px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -263,16 +278,26 @@ hr {
     align-items: center;
 }
 
+#my-projects {
+    background-color: #dfdfdf;
+}
+
 .project-card {
     width: 450px;
     box-shadow: 5px 5px 20px grey;
     margin: 10px;
     padding: 10px;
+    background-color: aliceblue;
+    border-radius: 2%;
 }
 
 .project-container {
     display: flex;
     justify-content: space-around;
+}
+
+.project-container h3 {
+    text-shadow: 2px 2px rgb(53, 53, 53);
 }
 
 @media only screen and (max-width: 1000px) {
