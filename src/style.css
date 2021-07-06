@@ -388,3 +388,16 @@ footer {
     border-radius: 20px;
     border: 0px;
 }
+
+.mobile-screen {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mobile-screen {
+        display: block;
+    }
+    .full-screen {
+        display: none;
+    }
+}
