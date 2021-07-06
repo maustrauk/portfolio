@@ -389,6 +389,16 @@ footer {
     border: 0px;
 }
 
+.form-submit-btn:hover {
+    background-color: #efb64b;
+    color: rgb(11, 104, 104);
+}
+
+.form-submit-btn:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
 .mobile-screen {
     display: none;
 }
