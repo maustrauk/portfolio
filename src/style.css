@@ -101,13 +101,6 @@ section {
     font-weight: 600;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 60px;
-}
-
 .logo {
     display: block;
     height: 50px;
@@ -137,6 +130,10 @@ nav {
 .nav-link {
     text-decoration: none;
     color: white;
+}
+
+.nav-link:hover {
+    color: aqua;
 }
 
 ul {
@@ -211,6 +208,10 @@ p {
 .button-link {
     text-decoration: none;
     color: white;
+}
+
+.button-link:hover {
+    color: rgb(11, 104, 104);
 }
 
 .hamburger {
@@ -349,6 +350,13 @@ hr {
     font-weight: 300;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
 .form-body {
     display: flex;
     flex-wrap: wrap;
@@ -369,4 +377,8 @@ hr {
 .form-text {
     width: 100%;
     margin: 20px;
+}
+
+.form-submit-btn {
+    background-color: #ef744b;
 }
