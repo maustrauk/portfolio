@@ -75,11 +75,12 @@ section {
     background-color: #1c1d25;
     background-image: url("../src/images/background.jpg");
     background-size: cover;
+    background-position: center center;
     height: 100vh;
     color: rgb(243, 240, 240);
     font-size: 60px;
-    
 }
+
 
 .hero-area {
     display: flex;
@@ -120,7 +121,7 @@ footer {
 }
 
 nav {
-    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
 }
