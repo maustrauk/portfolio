@@ -50,6 +50,22 @@ table {
 
 /*End of CSS reset*/
 
+/*Primary Button*/
+$primaryBtnBG: #ef744b;
+$primaryBtnBGhover: #efb64b;
+$primaryBtnBGactive: #A9A9A9;
+$primaryBtnColoractive: #808080;
+$primaryBtnLinkColor: white;
+$primaryBtnLinkColorhover: rgb(11, 104, 104);
+
+/*Links*/
+$primaryColor: #ffffff;
+$primaryColorhover: aqua;
+
+/*CSS constans*/
+
+/*End of CSS constans*/
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -129,11 +145,11 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: $primaryColor;
 }
 
 .nav-link:hover {
-    color: aqua;
+    color: $primaryColorhover;
 }
 
 ul {
@@ -187,7 +203,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: #ef744b;
+    background-color: $primaryBtnBG;
     text-align: center;
     font-size: 30px;
     font-weight: 400;
@@ -197,21 +213,21 @@ p {
 }
 
 .button:hover {
-    background-color: #efb64b;
+    background-color: $primaryBtnBGhover;
 }
 
 .button:active {
-    background-color: #A9A9A9;
-    color: #808080;
+    background-color: $primaryBtnBGactive;
+    color: $primaryBtnColoractive;
 }
 
 .button-link {
     text-decoration: none;
-    color: white;
+    color: $primaryBtnLinkColor;
 }
 
 .button-link:hover {
-    color: rgb(11, 104, 104);
+    color: $primaryBtnLinkColorhover;
 }
 
 .hamburger {
@@ -386,23 +402,23 @@ footer {
 }
 
 .form-submit-btn {
-    background-color: #ef744b;
+    background-color: $primaryBtnBG;
     font-family: 'Uchen', serif;
     padding: 10px 40px 10px 40px;
     font-size: 15px;
-    color: white;
+    color: $primaryBtnLinkColor;
     border-radius: 20px;
     border: 0px;
 }
 
 .form-submit-btn:hover {
-    background-color: #efb64b;
-    color: rgb(11, 104, 104);
+    background-color: $primaryBtnBGhover;
+    color: $primaryBtnLinkColorhover;
 }
 
 .form-submit-btn:active {
-    background-color: #A9A9A9;
-    color: #808080;
+    background-color: $primaryBtnBGactive;
+    color: $primaryBtnColoractive;
 }
 
 .mobile-screen {

@@ -54,6 +54,10 @@ table {
 }
 
 /*End of CSS reset*/
+/*Primary Button*/
+/*Links*/
+/*CSS constans*/
+/*End of CSS constans*/
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -156,7 +160,7 @@ nav {
 
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 
 .nav-link:hover {
