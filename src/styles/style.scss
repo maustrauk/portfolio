@@ -304,12 +304,3 @@ hr {
     font-size: 15px;
     font-weight: 300;
 }
-
-@media only screen and (max-width: 1000px) {
-    .mobile-screen {
-        display: block;
-    }
-    .full-screen {
-        display: none;
-    }
-}

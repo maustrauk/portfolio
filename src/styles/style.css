@@ -57,8 +57,20 @@ footer .full-screen .form-group .form-submit-btn:active {
   color: #808080;
 }
 
+@media only screen and (max-width: 1000px) {
+  footer .full-screen {
+    display: none;
+  }
+}
+
 footer .mobile-screen {
   display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer .mobile-screen {
+    display: block;
+  }
 }
 
 /*Primary Button*/
@@ -491,14 +503,5 @@ hr {
   color: #ef744b;
   font-size: 15px;
   font-weight: 300;
-}
-
-@media only screen and (max-width: 1000px) {
-  .mobile-screen {
-    display: block;
-  }
-  .full-screen {
-    display: none;
-  }
 }
 /*# sourceMappingURL=style.css.map */
