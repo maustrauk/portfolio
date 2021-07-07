@@ -145,10 +145,9 @@ nav {
 .nav-link {
     text-decoration: none;
     color: $primaryColor;
-}
-
-.nav-link:hover {
-    color: $primaryColorhover;
+    &:hover {
+        color: $primaryColorhover;
+    }
 }
 
 ul {
@@ -209,24 +208,22 @@ p {
     padding-top: 20px;
     margin-top: 20px;
     text-shadow: none;
+    &:hover {
+        background-color: $primaryBtnBGhover;
+    }
+    &:active {
+        background-color: $primaryBtnBGactive;
+        color: $primaryBtnColoractive;
+    }
 }
 
-.button:hover {
-    background-color: $primaryBtnBGhover;
-}
-
-.button:active {
-    background-color: $primaryBtnBGactive;
-    color: $primaryBtnColoractive;
-}
 
 .button-link {
     text-decoration: none;
     color: $primaryBtnLinkColor;
-}
-
-.button-link:hover {
-    color: $primaryBtnLinkColorhover;
+    &:hover{
+        color: $primaryBtnLinkColorhover;
+    }
 }
 
 .hamburger {
@@ -407,16 +404,14 @@ footer {
     color: $primaryBtnLinkColor;
     border-radius: 20px;
     border: 0px;
-}
-
-.form-submit-btn:hover {
-    background-color: $primaryBtnBGhover;
-    color: $primaryBtnLinkColorhover;
-}
-
-.form-submit-btn:active {
-    background-color: $primaryBtnBGactive;
-    color: $primaryBtnColoractive;
+    &:hover {
+        background-color: $primaryBtnBGhover;
+        color: $primaryBtnLinkColorhover;
+    }
+    &:active {
+        background-color: $primaryBtnBGactive;
+        color: $primaryBtnColoractive;
+    }
 }
 
 .mobile-screen {
