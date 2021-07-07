@@ -109,12 +109,11 @@ section {
     margin-left: 80px;
     margin-bottom: 200px;
     text-shadow: 3px 3px #b13939;
-}
-
-.hero-text p {
-    margin-top: 50px;
-    margin-bottom: 25px;
-    font-weight: 600;
+    p {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-weight: 600;
+    }
 }
 
 .logo {
@@ -318,10 +317,9 @@ hr {
 .project-container {
     display: flex;
     justify-content: space-around;
-}
-
-.project-container h3 {
-    text-shadow: 2px 2px rgb(53, 53, 53);
+    h3 {
+        text-shadow: 2px 2px rgb(53, 53, 53);
+    }
 }
 
 @media only screen and (max-width: 1000px) {
