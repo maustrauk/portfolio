@@ -1,8 +1,5 @@
-/*SCSS imports*/
 @import "./reset";
 @import "./variables";
-@import "./footer";
-/*End of SCSS imports*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -27,7 +24,7 @@ section {
 
 .hero {
     background-color: #1c1d25;
-    background-image: url("../src/images/background.jpg");
+    background-image: url("../../src/images/background.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -304,3 +301,5 @@ hr {
     font-size: 15px;
     font-weight: 300;
 }
+
+@import "./footer";

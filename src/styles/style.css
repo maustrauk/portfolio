@@ -1,4 +1,3 @@
-/*SCSS imports*/
 /*CSS reset*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -58,78 +57,6 @@ table {
 /*Primary Button*/
 /*Links*/
 /*Breakpoints for media*/
-/*Primary Button*/
-/*Links*/
-/*Breakpoints for media*/
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 60px;
-}
-
-footer .full-screen .form-group .form-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-footer .full-screen .form-group .form-body .form-header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer .full-screen .form-group .form-body .form-header .form-col {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-footer .full-screen .form-group .form-body .form-text {
-  width: 100%;
-  margin: 20px;
-}
-
-footer .full-screen .form-group .form-submit-btn {
-  background-color: #ef744b;
-  font-family: 'Uchen', serif;
-  padding: 10px 40px 10px 40px;
-  font-size: 15px;
-  color: white;
-  border-radius: 20px;
-  border: 0px;
-}
-
-footer .full-screen .form-group .form-submit-btn:hover {
-  background-color: #efb64b;
-  color: #0b6868;
-}
-
-footer .full-screen .form-group .form-submit-btn:active {
-  background-color: #A9A9A9;
-  color: #808080;
-}
-
-footer .mobile-screen {
-  display: none;
-}
-
-@media only screen and (max-width: 1000px) {
-  footer .full-screen {
-    display: none;
-  }
-  footer .mobile-screen {
-    display: block;
-  }
-}
-
-/*End of SCSS imports*/
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -161,7 +88,7 @@ section {
 
 .hero {
   background-color: #1c1d25;
-  background-image: url("../src/images/background.jpg");
+  background-image: url("../../src/images/background.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -500,5 +427,76 @@ hr {
   color: #ef744b;
   font-size: 15px;
   font-weight: 300;
+}
+
+/*Primary Button*/
+/*Links*/
+/*Breakpoints for media*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+footer .full-screen .form-group .form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .full-screen .form-group .form-body .form-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .full-screen .form-group .form-body .form-header .form-col {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer .full-screen .form-group .form-body .form-text {
+  width: 100%;
+  margin: 20px;
+}
+
+footer .full-screen .form-group .form-submit-btn {
+  background-color: #ef744b;
+  font-family: 'Uchen', serif;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  border: 0px;
+}
+
+footer .full-screen .form-group .form-submit-btn:hover {
+  background-color: #efb64b;
+  color: #0b6868;
+}
+
+footer .full-screen .form-group .form-submit-btn:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+footer .mobile-screen {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer .full-screen {
+    display: none;
+  }
+  footer .mobile-screen {
+    display: block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
