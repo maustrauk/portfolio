@@ -54,10 +54,71 @@ table {
 }
 
 /*End of CSS reset*/
+/*CSS constans*/
 /*Primary Button*/
 /*Links*/
-/*CSS constans*/
 /*End of CSS constans*/
+/*SCSS imports*/
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+
+footer .full-screen .form-group .form-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .full-screen .form-group .form-body .form-header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .full-screen .form-group .form-body .form-header .form-col {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+footer .full-screen .form-group .form-body .form-text {
+  width: 100%;
+  margin: 20px;
+}
+
+footer .full-screen .form-group .form-submit-btn {
+  background-color: #ef744b;
+  font-family: 'Uchen', serif;
+  padding: 10px 40px 10px 40px;
+  font-size: 15px;
+  color: white;
+  border-radius: 20px;
+  border: 0px;
+}
+
+footer .full-screen .form-group .form-submit-btn:hover {
+  background-color: #efb64b;
+  color: #0b6868;
+}
+
+footer .full-screen .form-group .form-submit-btn:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+footer .mobile-screen {
+  display: none;
+}
+
+/*End of SCSS imports*/
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -428,65 +489,6 @@ hr {
   color: #ef744b;
   font-size: 15px;
   font-weight: 300;
-}
-
-footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 60px;
-}
-
-.form-body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.form-header {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.form-col {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-
-.form-text {
-  width: 100%;
-  margin: 20px;
-}
-
-.form-submit-btn {
-  background-color: #ef744b;
-  font-family: 'Uchen', serif;
-  padding: 10px 40px 10px 40px;
-  font-size: 15px;
-  color: white;
-  border-radius: 20px;
-  border: 0px;
-}
-
-.form-submit-btn:hover {
-  background-color: #efb64b;
-  color: #0b6868;
-}
-
-.form-submit-btn:active {
-  background-color: #A9A9A9;
-  color: #808080;
-}
-
-.mobile-screen {
-  display: none;
 }
 
 @media only screen and (max-width: 1000px) {

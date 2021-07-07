@@ -50,6 +50,8 @@ table {
 
 /*End of CSS reset*/
 
+/*CSS constans*/
+
 /*Primary Button*/
 $primaryBtnBG: #ef744b;
 $primaryBtnBGhover: #efb64b;
@@ -62,9 +64,11 @@ $primaryBtnLinkColorhover: rgb(11, 104, 104);
 $primaryColor: #ffffff;
 $primaryColorhover: aqua;
 
-/*CSS constans*/
-
 /*End of CSS constans*/
+
+/*SCSS imports*/
+@import "./footer";
+/*End of SCSS imports*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -365,57 +369,6 @@ hr {
     color: #ef744b;
     font-size: 15px;
     font-weight: 300;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 60px;
-}
-
-.form-body {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.form-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.form-col {
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
-.form-text {
-    width: 100%;
-    margin: 20px;
-}
-
-.form-submit-btn {
-    background-color: $primaryBtnBG;
-    font-family: 'Uchen', serif;
-    padding: 10px 40px 10px 40px;
-    font-size: 15px;
-    color: $primaryBtnLinkColor;
-    border-radius: 20px;
-    border: 0px;
-    &:hover {
-        background-color: $primaryBtnBGhover;
-        color: $primaryBtnLinkColorhover;
-    }
-    &:active {
-        background-color: $primaryBtnBGactive;
-        color: $primaryBtnColoractive;
-    }
-}
-
-.mobile-screen {
-    display: none;
 }
 
 @media only screen and (max-width: 1000px) {
