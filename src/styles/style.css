@@ -57,17 +57,14 @@ footer .full-screen .form-group .form-submit-btn:active {
   color: #808080;
 }
 
-@media only screen and (max-width: 1000px) {
-  footer .full-screen {
-    display: none;
-  }
-}
-
 footer .mobile-screen {
   display: none;
 }
 
 @media only screen and (max-width: 1000px) {
+  footer .full-screen {
+    display: none;
+  }
   footer .mobile-screen {
     display: block;
   }
