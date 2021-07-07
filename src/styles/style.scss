@@ -50,24 +50,10 @@ table {
 
 /*End of CSS reset*/
 
-/*CSS constans*/
-
-/*Primary Button*/
-$primaryBtnBG: #ef744b;
-$primaryBtnBGhover: #efb64b;
-$primaryBtnBGactive: #A9A9A9;
-$primaryBtnColoractive: #808080;
-$primaryBtnLinkColor: white;
-$primaryBtnLinkColorhover: rgb(11, 104, 104);
-
-/*Links*/
-$primaryColor: #ffffff;
-$primaryColorhover: aqua;
-
-/*End of CSS constans*/
 
 /*SCSS imports*/
 @import "./footer";
+@import "./variables";
 /*End of SCSS imports*/
 
 body {
