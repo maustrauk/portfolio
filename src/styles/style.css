@@ -57,24 +57,15 @@ table {
 /*Primary Button*/
 /*Links*/
 /*Breakpoints for media*/
+/*Primary Button*/
+/*Links*/
+/*Breakpoints for media*/
 body {
   font-family: 'Poppins', sans-serif;
 }
 
 section {
   background-color: white;
-}
-
-.sub-section-alternative {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: center;
-  padding: 80px;
 }
 
 h1 {
@@ -98,11 +89,6 @@ h3 {
 p {
   font-size: 30px;
   font-weight: 300;
-}
-
-hr {
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 /*Primary Button*/
@@ -311,11 +297,31 @@ hr {
   }
 }
 
-#my-projects {
+/*Primary Button*/
+/*Links*/
+/*Breakpoints for media*/
+.my-projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 80px;
   background-color: #dfdfdf;
 }
 
-.project-card {
+.my-projects .project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.my-projects .project-container .project-card {
   width: 450px;
   -webkit-box-shadow: 5px 5px 20px grey;
           box-shadow: 5px 5px 20px grey;
@@ -325,35 +331,7 @@ hr {
   border-radius: 2%;
 }
 
-@media only screen and (max-width: 1000px) {
-  .project-card {
-    width: 70%;
-  }
-}
-
-.project-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.project-container h3 {
-  text-shadow: 2px 2px #353535;
-}
-
-@media only screen and (max-width: 1000px) {
-  .project-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-.project-image {
+.my-projects .project-container .project-card .project-image {
   margin-top: 25px;
   width: 200px;
   height: 200px;
@@ -365,6 +343,47 @@ hr {
           animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+}
+
+.my-projects .project-container .project-card .project-image:hover {
+  -webkit-animation-name: image-puls;
+          animation-name: image-puls;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.my-projects .project-container .project-card h3 {
+  text-shadow: 2px 2px #353535;
+}
+
+.my-projects .project-container .project-card .project-about {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.my-projects .project-container .project-card hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-projects .project-container .project-card .project-tech {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .my-projects .project-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .my-projects .project-container .project-card {
+    width: 70%;
+  }
 }
 
 @-webkit-keyframes image-puls {
@@ -395,32 +414,6 @@ hr {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-}
-
-.project-image:hover {
-  -webkit-animation-name: image-puls;
-          animation-name: image-puls;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-}
-
-.project-about {
-  font-size: 15px;
-  font-weight: 300;
-  padding: 10px;
-}
-
-.project-tech {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 10px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: #ef744b;
-  font-size: 15px;
-  font-weight: 300;
 }
 
 /*Primary Button*/

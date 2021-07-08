@@ -1,126 +1,13 @@
 @import "./reset";
+
 @import "./variables";
 
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-section {
-    background-color: white;
-}
-
-.sub-section-alternative {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 80px;
-}
-
-h1 {
-    font-size: 90px;
-    font-weight: 600;
-    margin-bottom: 30px;
-}
-
-h2 {
-    font-size: 60px;
-    font-weight: 500;
-    margin-bottom: 30px;
-}
-
-h3 {
-    font-size: 40px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-p {
-    font-size: 30px;
-    font-weight: 300;
-}
-
-hr {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+@import "./global";
 
 @import "./hero";
 
 @import "./about-me";
 
-#my-projects {
-    background-color: #dfdfdf;
-}
-
-.project-card {
-    width: 450px;
-    box-shadow: 5px 5px 20px grey;
-    margin: 10px;
-    padding: 10px;
-    background-color: aliceblue;
-    border-radius: 2%;
-}
-
-@media only screen and (max-width: 1000px) {
-    .project-card {
-        width: 70%;
-    }
-}
-
-.project-container {
-    display: flex;
-    justify-content: space-around;
-    h3 {
-        text-shadow: 2px 2px rgb(53, 53, 53);
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .project-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-.project-image {
-    margin-top: 25px;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 25px;
-    border-radius: 50%;
-    box-shadow: 5px 5px 20px grey;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes image-puls {
-    0% { transform: scale(1);}
-    50% {transform: scale(1.2);}
-    100% {transform: scale(1);}
-}
-
-.project-image:hover {
-    animation-name: image-puls;
-    animation-timing-function: linear;
-}
-
-.project-about {
-    font-size: 15px;
-    font-weight: 300;
-    padding: 10px;
-}
-
-.project-tech {
-    font-size: 15px;
-    font-weight: 600;
-    padding: 10px;
-}
-
-.project-link {
-    text-decoration: none;
-    color: #ef744b;
-    font-size: 15px;
-    font-weight: 300;
-}
+@import "./my-projects";
 
 @import "./footer";

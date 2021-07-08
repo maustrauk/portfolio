@@ -1,0 +1,32 @@
+@import "./variables";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 300;
+}

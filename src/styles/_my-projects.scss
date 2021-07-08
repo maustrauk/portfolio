@@ -1,0 +1,70 @@
+@import "./variables";
+
+.my-projects {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+    background-color: #dfdfdf;
+    .project-container {
+        display: flex;
+        justify-content: space-around;
+        .project-card {
+            width: 450px;
+            box-shadow: 5px 5px 20px grey;
+            margin: 10px;
+            padding: 10px;
+            background-color: aliceblue;
+            border-radius: 2%;
+            .project-image {
+                margin-top: 25px;
+                width: 200px;
+                height: 200px;
+                margin-bottom: 25px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 20px grey;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                &:hover {
+                    animation-name: image-puls;
+                    animation-timing-function: linear;
+                }
+            }
+            h3 {
+                text-shadow: 2px 2px rgb(53, 53, 53);
+            }
+            .project-about {
+                font-size: 15px;
+                font-weight: 300;
+                padding: 10px;
+            }
+            hr {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .project-tech {
+                font-size: 15px;
+                font-weight: 600;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+    .my-projects {
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            .project-card {
+                width: 70%;
+            }
+        }
+    }   
+}
+
+@keyframes image-puls {
+    0% { transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
