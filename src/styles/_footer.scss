@@ -46,14 +46,15 @@ footer {
     .mobile-screen{
         display: none;
     }
-    @media only screen and (max-width: $breakpoint-mobile) {
-        footer {
-            .full-screen {
-                display: none;
-            }
-            .mobile-screen {
-                display: block;
-            }
-        }   
-    }
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+    footer {
+        .full-screen {
+            display: none;
+        }
+        .mobile-screen {
+            display: block;
+        }
+    }   
 }

@@ -1,0 +1,40 @@
+@import "./variables";
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: rgb(216, 210, 202);
+    .information {
+        margin-right: 30px;
+        font-family: 'Uchen', serif;
+        .about-header {
+            font-size: 35px;
+        }
+        .about-address {
+            font-style: italic;
+        }
+        .about-text {
+            padding-top: 10px;
+            font-size: 25px;
+        }
+    }
+    .headshot-container {
+        display: flex;
+        align-items: center;
+        .headshot {
+            width: 300px;
+            border-radius: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: $breakpoint-mobile) {
+    .about-me {
+        .information {
+            .about-text {
+                display: none;
+            }
+        }
+    }   
+}

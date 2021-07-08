@@ -9,12 +9,6 @@ section {
     background-color: white;
 }
 
-.sub-section {
-    display: flex;
-    justify-content: space-around;
-    padding: 80px;
-}
-
 .sub-section-alternative {
     display: flex;
     flex-direction: column;
@@ -52,43 +46,7 @@ hr {
 
 @import "./hero";
 
-.information {
-    margin-right: 30px;
-    font-family: 'Uchen', serif;
-}
-
-#about-me {
-    background-color: #d6d3d3;
-}
-
-#about-header {
-    font-size: 35px;
-}
-
-#about-address {
-    font-style: italic;
-}
-
-#about-text {
-    padding-top: 10px;
-    font-size: 25px;
-}
-
-@media only screen and (max-width: 1000px) {
-    #about-text {
-        display: none;
-    }
-}
-
-.headshot {
-    width: 300px;
-    border-radius: 50%;
-}
-
-.headshot-container {
-    display: flex;
-    align-items: center;
-}
+@import "./about-me";
 
 #my-projects {
     background-color: #dfdfdf;
